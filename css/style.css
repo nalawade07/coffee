@@ -79,6 +79,7 @@ animation:coffee_blink1 .8s ease-in-out infinite;
   background-color:rgb(114, 70, 20);
   color:white;
   border-radius:2px;
+  display:none;
 }
 .navbar-toggler-icon{
     width:unset;
@@ -94,7 +95,7 @@ animation:coffee_blink1 .8s ease-in-out infinite;
 
 
 .top-banner{
-    background:url('/images/360_F_436777481_3Nk1sGJwa9UaYtJZ8dzeHVZrV4j0ACo3.jpg') no-repeat center;
+    background:url('../images/360_F_436777481_3Nk1sGJwa9UaYtJZ8dzeHVZrV4j0ACo3.jpg') no-repeat center;
     background-size:cover;
     padding:7rem 0 8rem;
     width:100%;
@@ -206,7 +207,7 @@ font-size:.9rem;
     text-align: center;
 }
 .add_bannner_img{
-    background:url('/images/mike-kenneally-TD4DBagg2wE-unsplash.jpg') no-repeat center;
+    background:url('../images/mike-kenneally-TD4DBagg2wE-unsplash.jpg') no-repeat center;
     background-size:cover;
     background-position:center;
     width:100%;
@@ -454,6 +455,10 @@ transition:all 0.4 ease-in;
         font-size:2.1rem;
     }
 
+    .navbar-toggle{
+        display:block;
+    }
+
     .top-banner{
         padding:2rem 0rem  1rem 5rem ;
     }
@@ -503,6 +508,10 @@ transition:all 0.4 ease-in;
 
      .head_name a{
         font-size:2.1rem;
+    }
+
+    .navbar-toggle{
+        display:block;
     }
 
      .top-banner{
@@ -570,6 +579,9 @@ height:130px;
     font-size:2.1rem;
 }
 
+.navbar-toggle{
+    display:block;
+}
 
         /* ///////////  about   ///////////// */
 
@@ -645,6 +657,9 @@ height:130px;
 
 .head_name a{
     font-size:2.1rem;
+}
+.navbar-toggle{
+    display:block;
 }
 
 
@@ -765,6 +780,10 @@ margin-bottom:1rem;
 
 .head_name a{
     font-size:1.8rem;
+}
+
+.navbar-toggle{
+    display:block;
 }
 
     .top-banner h1{
