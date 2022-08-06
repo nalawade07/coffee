@@ -341,16 +341,16 @@ footer{
 .coffee_logo_footer a{
     /* color:rgba(83, 24, 24, 0.849); */
     color:rgba(163, 114, 59, 0.678);
-    animation:coffee_blink .8s ease-in-out infinite;
+/*     animation:coffee_blink .8s ease-in-out infinite; */
 }
-@keyframes coffee_blink{
+/* @keyframes coffee_blink{
     50%{
     color:rgba(163, 114, 59, 0.678);
     }
     100%{
     color:rgba(83, 24, 24, 0.849);
     }
-}
+} */
 .head_name a:hover,.coffee_logo_footer a:hover{
     color:rgba(83, 24, 24, 0.849);
 }
