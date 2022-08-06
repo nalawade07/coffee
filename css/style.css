@@ -1,0 +1,796 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Kaisei Tokumin', serif;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    font-size:1rem;
+    /* background-color:white; */
+    /* font-weight: bolder; */
+    background-color:rgba(165, 164, 164, 0.192);
+}
+.head_name a{
+    font-size:2.1rem;
+    color:rgba(114, 70, 20, 0.904);
+    font-weight:600;   
+    filter: drop-shadow(8px 9.3px 2.8px);
+animation:coffee_blink1 .8s ease-in-out infinite;
+}
+.head_name{
+    transform:rotate(2deg);
+}
+
+@keyframes coffee_blink1{
+    50%{
+    color:rgba(114, 70, 20, 0.904);
+    /* color:rgba(163, 114, 59, 0.678); */
+    }
+    100%{
+    color:rgba(83, 24, 24, 0.616);
+    }
+}
+
+.main-btn{
+    background-color:rgb(114, 70, 20);
+    border:none;
+    outline:none;
+    font-family: 'Kaisei Tokumin', serif;
+    color:rgb(255, 255, 255);
+}
+.white-btn{
+    background-color:rgb(255, 255, 255);
+    /* border:none; */
+    outline:none;
+    color:rgb(0, 0, 0);
+    font-family: 'Kaisei Tokumin', serif;
+    border:1px solid lightgrey;
+}
+.navigation_position{
+    position:fixed;
+    bottom:0;
+    right:0;
+    width:100%;
+    text-align:center;
+    /* height:3rem; */
+    margin:2px 0px;
+    /* background-color:rgb(255, 255, 255); */
+}
+:active,:hover,:focus{
+    outline:0 !important;
+    outline-offset:0;
+}
+.nav-item a{
+    text-transform: capitalize;
+    /* padding:.4rem; */
+    color:darkgray;
+}
+.nav-item{
+    padding:.4rem;
+    margin-right:.2rem;
+}
+.navbar-toggle{
+  border:none;
+  outline:none;
+  padding:.3rem .6rem;
+  background-color:rgb(114, 70, 20);
+  color:white;
+  border-radius:2px;
+}
+.navbar-toggler-icon{
+    width:unset;
+    height:unset;
+}
+.nav-item a:hover{
+    background-color:rgba(209, 203, 203, 0.171);
+    border-radius:1px;
+    /* border:none; */
+    color:rgb(0, 0, 0);
+    /* border:1px solid lightgrey; */
+}
+
+
+.top-banner{
+    background:url('/images/360_F_436777481_3Nk1sGJwa9UaYtJZ8dzeHVZrV4j0ACo3.jpg') no-repeat center;
+    background-size:cover;
+    padding:7rem 0 8rem;
+    width:100%;
+}
+.navbar-toggler:focus{
+    outline:unset;
+    border:unset;
+    box-shadow: none;
+}
+.navbar-toggler{
+    outline:unset;
+    border:unset;
+    box-shadow: none;
+}
+.top-banner h1{
+    font-size:2.6rem;
+    letter-spacing:1px;
+    color:white;
+    padding:1rem 0rem;
+    font-weight:600;
+    font-family: 'Kaisei Tokumin', serif;
+}
+.top-banner p{
+    font-size:.9rem;
+    letter-spacing:1px;
+    color:lightgray;
+}
+.bg-brown{
+    font-size:2.8rem;
+    color:rgba(199, 135, 61, 0.582);
+    font-family: 'Kaisei Tokumin', serif;
+}
+.card_cofee h3{
+    color:rgb(61, 59, 59);
+    background-color:rgba(153, 97, 33, 0.739);
+}
+
+.about_img{
+    min-width:100%;
+    max-height:300px;
+}
+.about_p{
+    font-size:.9rem;
+    letter-spacing:1px;
+}
+.about_name{
+    font-family: 'Kaisei Tokumin', serif;
+}
+
+.cofe_img{
+    width:280px;
+    height:265px;
+   border-radius:2px;;
+}
+.cofe_img img{
+width:100%;
+height:100%;
+border-radius:2px;
+}
+.order_btn{
+    margin:.6rem 0rem;
+    transition:all 0.2s linear;
+}
+.order_btn:hover{
+    background-color:rgba(116, 14, 14, 0.698);
+}
+
+.cofe_card,p,h6{
+font-size:.8rem;
+letter-spacing:1px;
+padding-top:.3rem;
+}
+.span-price{
+color:rgb(114, 70, 20);
+margin-right:.3rem;
+font-weight: 600;
+font-size:.9rem;
+}
+.card_cofee,h6,p,small{
+    padding-left:1rem;
+    /* padding-bottom:.4rem; */
+}
+
+.section_main_name{
+    font-weight: bolder;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center_name h3{
+    font-family: 'Kaisei Tokumin', serif;
+    font-size:1.2rem;
+    padding:.4rem;
+    color:white;
+    background-color: rgb(10, 10, 10);
+   width:10rem;
+   height:auto;
+   border-radius:2px;
+}
+
+.food_section{
+    background-color:rgba(211, 206, 206, 0.164);
+    margin:2rem 0rem;
+    padding:0rem .5rem;
+}
+.banner_conatiner{
+    margin-top:2rem;
+    text-align: center;
+}
+.add_bannner_img{
+    background:url('/images/mike-kenneally-TD4DBagg2wE-unsplash.jpg') no-repeat center;
+    background-size:cover;
+    background-position:center;
+    width:100%;
+    height:240px;
+    background-attachment: fixed;
+    position: relative;
+}
+.ovarly{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.555);
+    width: 100%;
+    height:100%;
+}
+.banner_text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+/* background-color:lightcoral; */
+background-color:rgba(109, 73, 16, 0.561);
+}
+.banner_text h2{
+    font-family: 'Kaisei Tokumin', serif;
+    font-weight:bolder;
+    font-size:1.3rem;
+    letter-spacing:1px;
+}
+
+.button_joinus{
+position: absolute;
+margin-left:-5.3rem;
+text-align: center;
+width:80px;
+margin-top:.2rem;
+border:none;
+outline:none;
+background-color:rgba(200, 147, 61, 0.561);
+padding:.2rem;
+border-radius:2px;
+color:black;
+}
+.input{
+padding:.4rem;
+/* height:2.3rem; */
+height:2.5rem;
+/* width:17rem; */
+width:23rem;
+border:none;
+outline:none;
+border-radius:3px;
+
+}
+
+.review-conatiner{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin:1rem;
+    padding:1rem;
+}
+.review_box{
+    width:500px;
+    padding:10px 10px;
+    box-shadow:0px 1px 1px 1px rgba(0,0,0,0.1);
+   border-radius:3px;
+}
+.profile_img{
+        width:60px;
+        height:60px;
+        margin-right:.3rem;
+}
+.profile_img img{
+    width:100%;
+    height:100%;
+    border-radius:50px;
+    object-fit: cover;
+    object-position: center;
+}
+.profile{
+    display:flex;
+    align-items: center;
+}
+.user_name{
+    display: flex;
+    flex-direction: column;
+}
+.user_name span{
+    font-size:.9rem;
+    color:lightgrey;
+}
+.satrs_sec i{
+    color:rgb(160, 96, 23);
+}
+.top-box{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    /* margin-top:20px; */
+}
+.comment p{
+    font-size:.8rem;
+}
+.comment{
+    margin-top:.3rem;
+}
+.comment{
+    margin-left:-1rem;
+}
+
+.carousel-control-next i , .carousel-control-prev i{
+    width:50px;
+    height:50px;
+    font-size:1.1rem;
+    /* background-color:rgb(160, 96, 23); */
+    border-radius:50px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    visibility: hidden;
+}
+footer{
+    background-color:rgba(248, 244, 244, 0.931);
+    /* background-color:rgba(202, 202, 202, 0.39); */
+    width:100%;
+    height:auto;
+    padding:15px;
+}
+.coffee_logo_footer a{
+    /* color:rgba(83, 24, 24, 0.849); */
+    color:rgba(163, 114, 59, 0.678);
+    animation:coffee_blink .8s ease-in-out infinite;
+}
+@keyframes coffee_blink{
+    50%{
+    color:rgba(163, 114, 59, 0.678);
+    }
+    100%{
+    color:rgba(83, 24, 24, 0.849);
+    }
+}
+.head_name a:hover,.coffee_logo_footer a:hover{
+    color:rgba(83, 24, 24, 0.849);
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .social-icon i{
+    filter: drop-shadow(3px 5px 5px);
+    font-size:2rem;
+    color:rgba(153, 152, 152, 0.829);
+}
+.address{
+display: flex;
+flex-direction: column;
+}
+.address span{
+font-size:.9rem;
+letter-spacing:1px;
+}
+.address i{
+/* filter: drop-shadow(3px 3px 7px); */
+padding:.3rem .1rem;
+margin-bottom:.4rem;
+color:rgba(107, 107, 107, 0.829);
+transition:all 0.4 ease-in;
+}
+.address i:hover{
+    cursor: pointer;
+    color:rgb(160, 96, 23);
+}
+
+.footer_content{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content:space-between;
+}
+.footer_content .social-icon i{
+margin-left:1rem;
+padding:0rem .3rem;
+transition:all 0.4 ease-in;
+}
+.social-icon a{
+    text-decoration:none;
+}
+.social-icon{
+    display:flex;
+}
+.social-icon i:hover{
+    transform:translateY(-5px);
+    cursor: pointer;
+    color:rgb(160, 96, 23)
+}
+
+
+
+
+
+
+
+/* /////////////////////  @media Query   ////////////////////// */
+
+
+
+@media (max-width:1030px){
+
+    /* /////////// top /////////// */
+
+    .head_name a{
+        font-size:2.1rem;
+    }
+
+    .top-banner{
+        padding:5rem 0 6rem;
+    }
+
+/* /////////// coffee  //////////// */
+
+    .cofe_img{
+        width: 250px;
+        height: 265px    
+    }
+
+    /* ////////////  Review  ///////////// */
+
+    .carousel-control-next i,
+.carousel-control-prev i{
+    background-color:transparent;
+}
+
+}
+
+/* ///////////// */
+
+ @media (max-width:991px){
+
+    /* ////////////// top bg   //////////// */
+
+    .head_name a{
+        font-size:2.1rem;
+    }
+
+    .top-banner{
+        padding:2rem 0rem  1rem 5rem ;
+    }
+
+    /* ////////////// coffee  //////////// */
+
+    .cofe_img{
+        width: 250px;
+        height: 265px    
+    }
+
+    /* ////////////// about  //////////// */
+
+
+    .about_img{
+        min-width:320px;
+        max-height:280px;
+    }
+    .about_p{
+        font-size:.8rem;
+        letter-spacing:1px;
+    }
+
+/* ////////////  review  ////////// */
+
+.carousel-control-next i,
+.carousel-control-prev i{
+    background-color:transparent;
+}
+
+    /* ////////////// footer   //////////// */
+
+    .footer_content .social-icon i{
+        font-size:1.4rem;
+    }
+    .footer_content .address span{
+        font-size:.8rem;
+    }
+
+}
+
+/* //////////// */
+
+@media (max-width:767px){
+
+     /* ////////////// top bg   //////////// */
+
+     .head_name a{
+        font-size:2.1rem;
+    }
+
+     .top-banner{
+        padding:2rem 0rem  1rem 2rem;
+        text-align: center;
+    }
+    .top-banner p{
+        font-size:.8rem;
+    }
+    .top-banner h1{
+        font-size: 2.3rem;
+    }
+
+    /* ///////////  about   ///////////// */
+
+    .adout-container{
+        text-align: center;
+    }
+
+    .about_name{
+        font-size:1.7rem;
+    }
+
+    .about_img{
+        min-width:310px;
+        max-height:280px;
+    }
+
+  /* ////////////// coffee  //////////// */
+
+  .cofe_img{
+    width: 250px;
+    height: 260px    
+}
+
+/* ////////  review ///////// */
+
+.review-conatiner{
+    margin:.5rem;
+    padding:.5rem;
+    width:80%;
+    margin:auto;
+}
+.comment p{
+ font-size:.7rem;
+ width:100%;
+}
+.carousel-control-next i,
+.carousel-control-prev i{
+    background-color:transparent;
+}
+
+.carousel-control-prev,.carousel-control-next{
+width:80px;
+height:130px;
+}
+
+}
+
+@media (max-width:521px){
+    
+/* ////////  top ////////// */
+
+.head_name a{
+    font-size:2.1rem;
+}
+
+
+        /* ///////////  about   ///////////// */
+
+        .adout-container{
+            text-align: center;
+        }
+    
+        .about_name{
+            font-size:1.7rem;
+        }
+    
+        .about_img{
+            min-width:280px;
+            max-height:250px;
+        }
+        .about_p{
+            font-size:.7rem;
+        }
+
+  /* ////////////// coffee  //////////// */
+
+  .cofe_img{
+    width: 210px;
+    height: 230px    
+}
+
+/* ///////////// input  ///////////// */
+
+.input{
+    width:18rem;
+    font-size: .9rem;
+}
+.button_joinus{
+    font-size: .9rem;
+}
+.banner_text h2{
+    font-size:.9rem;
+}
+
+
+/* ////////////////  review  /////////////// */
+
+.user_name strong, .user_name span{
+    font-size:.8rem;
+    letter-spacing:1px;
+}
+.satrs_sec i{
+ font-size:.8rem;
+}
+.profile_img{
+    width:43px;
+    height:43px;
+}
+.comment p{
+    font-size:.7rem;
+    letter-spacing:1px;
+}
+.comment{
+    margin-left:-1rem;
+}
+
+
+}
+
+
+
+
+@media (max-width:442px){
+    
+
+
+/* /////////////  top  //////////// */
+
+.head_name a{
+    font-size:2.1rem;
+}
+
+
+.top-banner h1{
+    font-size:2.3rem;
+}
+.bg-brown{
+    font-size:2.4rem;
+}
+.top-banner p{
+    font-size: .8rem;
+}
+.main-btn, .white-btn{
+    font-size: .9rem;
+    text-align: center;
+    /* height:2.3rem; */
+}
+
+    /* ///////////  about   ///////////// */
+
+    .adout-container{
+        text-align: center;
+    }
+
+    .about_name{
+        font-size:1.7rem;
+    }
+.about_name{
+    font-size:1.1rem;
+    font-weight: bold;
+}
+    .about_img{
+        min-width:280px;
+        max-height:250px;
+    }
+    .about_p{
+        font-size:.7rem;
+    }
+
+/* ////////////// coffee  //////////// */
+
+.cofe_img{
+width: 285px;
+height: 286px    
+}
+.input{
+width:18rem;
+font-size: .9rem;
+}
+.button_joinus{
+font-size: .9rem;
+}
+.banner_text h2{
+font-size:.9rem;
+}
+
+.add_bannner_img{
+    height:200px;
+}
+
+/* ////////////////  review  /////////////// */
+
+.user_name strong, .user_name span{
+font-size:.8rem;
+letter-spacing:1px;
+}
+.satrs_sec i{
+font-size:.8rem;
+}
+.profile_img{
+width:43px;
+height:43px;
+}
+
+.review_box{
+    width:270px;
+}
+.comment{
+    margin-left:-1rem;
+}
+.comment p{
+font-size:.7rem;
+letter-spacing:1px;
+width: 100%;
+}
+.top-box{
+    display: block;
+}
+
+
+/* /////////  footer //////////// */
+
+
+.address i{
+margin-bottom:1rem;
+}
+.footer_content{
+    text-align: center;
+    display: block;
+    margin:1.1rem;
+}
+.social-icon{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.social-icon i{
+    margin-top:.7rem;
+    }
+
+}
+
+
+@media (max-width:362px){
+
+
+/* //////////// top  ///////////// */
+
+.head_name a{
+    font-size:1.8rem;
+}
+
+    .top-banner h1{
+        font-size:1.9rem;
+    }
+    .bg-brown{
+        font-size:2.3rem;
+    }
+    .top-banner p{
+        font-size:.7rem;
+        letter-spacing:1px;
+    }
+
+/* ///////////// input  ///////////// */
+
+.input{
+    width:15rem;
+    font-size:.8rem;
+}
+.button_joinus{
+    margin-top:.5rem;
+    font-size: .8rem;
+}
+.banner_text h2{
+    font-size:1rem;
+}
+
+
+}
